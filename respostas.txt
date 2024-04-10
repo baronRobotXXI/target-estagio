@@ -1,0 +1,16 @@
+1 - ao final teremos a variável soma = 91
+2 - código anexo
+3 - a) 1 3 5 7 -> 9
+   b) 2 4 8 16 32 64 -> 128
+   c) 0 1 4 9 16 25 36 -> 49
+   d) 4 16 36 64 -> 100
+   e) 1 1 2 3 5 8 -> 13
+   f) 2 10 12 16 17 18 19 -> pode ser qualquer coisa. Como os últimos 4 variaram de 1 em 1, eu chuto 20. Parece aleatório.
+
+4 - eu tenho 3 interruptores e 3 "bits". Dos 8 valores possíveis, apenas 2 contém 2 bits 1, 110 101 011.
+Eu acenderia 2 interruptores quaisquer (digamos os dois primeiros) e iria em uma sala qualquer, digamos a primeira. 
+Se a sala estiver apagada, eu sei que o interruptor 3 é da 1a sala. Basta apagar um dos interruptores acesos e ir na 2a sala para identificar se o interruptor aceso é desta ou da 3a sala.
+Se a sala estiver acesa, um dos dois interruptores é da 1a sala, e uma das outras duas salas ficou apagada. Voltamos à sala dos interruptores e apagamos um deles. 
+Agora basta abrir outra sala, digamos a 2a. Caso a lâmpada esteja acesa, o interruptor que ficou aceso é desta 2a sala, o que foi apagado o da 1a, e o que nunca foi aceso da 3a. Caso a lâmpada esteja apagada, tocamos a lâmpada. Se estiver fria, esta é do interruptor que nunca foi aceso, a primeira sala continuou acesa e a 3a é a do interruptor que foi apagado. Caso esteja quente, está é a do interruptor apagado, a primeira sala continuou acesa e a 3a nunca foi acesa.
+
+5 - código anexo
